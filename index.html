@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<!-- ウェブページの文字エンコーディングを指定するために使用されます。 -->
+		<meta charset="UTF-8" />
+		<!-- ウェブページのビューポート（表示領域）の設定を指定します。 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- ウェブページのタイトルに使用されます。 -->
+		<title>うつわ屋こはる</title>
+		<!-- ウェブページの簡潔な説明や概要を提供するために使用されます。 -->
+		<meta
+			name="description"
+			content="うつわ屋こはるは陶器専門のECサイトです。陶器の製造・販売を行っています。"/>
+		<!-- モバイルブラウザが電話番号の検出やリンク化を行わないように設定しています。 -->
+		<meta name="format-detection" content="telephone=no" />
+		<!-- ファビコンを設定しています。 -->
+		<link rel="shortcut icon" href="image/favicon.ico" />
+		<!-- font-awesomeを使用しています。 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+		<!-- reset.cssは、destyleを使用しています。 -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+		/>
+		<!-- スタイルシート（css）を呼び出しています -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="body">
+  <!-- ここから記述します。 -->
+
+    <!--- header-->
+        <header class="header u-wrapper">
+            <h1><a href="index.html">
+                <img class="header__logo" src="image/logo-white.png" alt="">
+            </a>
+            </h1>
+            <div class="hamburger">
+                <button class="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="header__menu">
+                    <a href="index.html">
+                        <img class="menu__logo" src="image/logo.png" alt="">
+                    </a>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="index.html">ホーム</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="products.html">商品一覧</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="company.html">会社概要</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="about.html">私たちについて</a>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+            <div class="menu__mask"></div>
+        </header>
+        <main>
+            <section class="u-wrapper">
+                <div class="grid__container">
+                    <div class="grid__item ">
+                        <a href="item1.html">
+                        <img class="grid__img " src="image/item1.jpg" alt="">
+                        <p class="grid__text">益子焼オリジナルセット</p>
+                        <p class="grid__text">￥9,800</p>
+                        </a>
+                    </div>
+                    <div class="grid__item ">
+                        <a href="item2.html">
+                        <img class="grid__img" src="image/item2.jpg" alt="">
+                        <p class="grid__text">湯呑み茶碗</p>
+                        <p class="grid__text">￥4,400</p>
+                        </a>
+                    </div>
+                    <div class="grid__item">
+                        <a href="item3.html">
+                        <img class="grid__img" src="image/item3.jpg" alt="">
+                        <p class="grid__text">抹茶茶碗</p>
+                        <p class="grid__text">￥3,200</p>
+                        </a>
+                    </div>
+                    <div class="grid__item">
+                        <a href="item4.html">
+                        <img class="grid__img" src="image/item4.jpg" alt="">
+                        <p class="grid__text">レトロのボウル</p>
+                        <p class="grid__text">￥2,500</p>
+                        </a>
+                    </div>
+                    <div class="grid__item">
+                        <a href="item5.html">
+                        <img class="grid__img" src="image/item5.jpg" alt="">
+                        <p class="grid__text">益子焼マグカップ</p>
+                        <p class="grid__text">￥3,500</p>
+                        </a>
+                    </div>
+                    <div class="grid__item ">
+                        <a href="item6.html">
+                        <img class="grid__img" src="image/item6.jpg" alt="">
+                        <p class="grid__text">オリジナルカップ</p>
+                        <p class="grid__text">￥5,200</p>
+                        </a>
+                    </div>
+                    <div class="grid__item ">
+                        <a href="item7.html">
+                        <img class="grid__img" src="image/item7.jpg" alt="">
+                        <p class="grid__text">ビンテージカップ</p>
+                        <p class="grid__text">￥3,500</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="gridmore">
+                    <a href="products.html" class="gridBtn">もっとみる</a>
+                </div>
+            </section>
+                            <div class="sidebar">
+                    <p class="side__text">UTSUWAYA KOHARU</p>
+                </div>
+        </main>
+        <footer class="footer__container">
+            <div class="footer__box u-wrapper">
+                <a href="index.html">
+                <img class="footer__logo" src="image/logo.png" alt="ロゴ">
+                </a>
+                <div class="footer__inner">
+                 <ul class="footer__list">
+                     <li class="footer__item">
+                        <a href="index.html">ホーム</a>
+                    </li>
+                     <li class="footer__item">
+                        <a href="products.html">商品紹介</a>
+                    </li>
+                     <li class="footer__item">
+                        <a href="company.html">会社概要</a>
+                        </li>
+                     <li class="footer__item">
+                        <a href="about.html">私たちについて</a>
+                        </li>
+                 </ul>
+                 <p class="footer__copy">©︎うつわ屋こはる All Right Reserved</p>
+                </div>
+            </div>
+        </footer>
+           <!-- JSを呼び出しています -->
+		<script src="js/menu.js"></script>
+	</body>
+</html>
+
